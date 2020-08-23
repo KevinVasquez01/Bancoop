@@ -40,13 +40,13 @@ header nav ul li a:hover{
     color: white;
 }
 .aside1{
-    width: 25%;
+    width: 35%;
     background-color: #016a94;
     float: left;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 10px;
-    height: 30%;
+    height: auto;
     box-shadow:3px 3px 3px rgb(5, 10, 87);
     margin-bottom: 0px;
     margin-top: 20px;
