@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="imagenes/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="font-awesome/css/fontawesome.min.css">
     <meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
@@ -18,7 +19,7 @@
                     BANCOOP |
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarone">
-                    <span class="icon-menu3"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarone">             
                     <ul class="navbar-nav mx-auto">
@@ -34,19 +35,14 @@
     <aside class="aside1">
         <h3>Ingresa a tu cuenta</h3>
         <form>
-            <label for="cuenta">Cuenta:</label>
-            <input type="text" placeholder="Numero de cuenta" id="cuenta">
-                <br><br><br>
-            <label for="TipoDeCuenta">Tipo de cuenta:</label>
-            <select name="" id="TipoDeCuenta">
-                <option value="ahorros">Ahorros</option>
-                <option value="corriente">Corriente</option>
-            </select>
-                <br><br><br>
-            <label for="clave">Clave:</label>
-            <input type="text" placeholder="Ingrese clave" id="clave">
-                
-            <input id="boton" type="submit" value="INGRESAR">
+            <div class="form-group">
+                <label for="">Cuenta:</label>
+                <input type="text" placeholder="Numero de cuenta" class="form-control">
+            </div>
+            <div>
+                <label for="clave">Clave:</label>
+                <input type="text" placeholder="Ingrese clave" class="form-control">
+            </div>
         </form>
     </aside>
     <aside class="aside2">
