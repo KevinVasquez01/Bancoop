@@ -5,18 +5,29 @@
     <title>Bancoop</title>
     <link rel="shortcut icon" type="image/x-icon" href="imagenes/logobanco.ico">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="imagenes/fonts.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li class="banco"><img class="banco2" src="imagenes/logobanco.jpg" alt="Bancoop" width="100px"></li>
-                <li class="titulo">BANCOOP |</li>
-                <li><a href="">Personas</a></li>
-                <li><a href="">Empresas</a></li>
-                <li><a href="">Canales y servicios</a></li>
-                <li><a href="">Creditos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-md navbar-light bg-info">
+            <div class="container">
+                <a class="banco" href=""><img class="banco2 mr-2" src="imagenes/logobanco.jpg" alt="Bancoop" width="100px"></a>
+                <a class="navbar-brand " href="">
+                    BANCOOP |
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarone">
+                    <span class="icon-menu3"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarone">             
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a href="">Empresas</a></li>
+                        <li class="nav-item"><a href="">Personas</a></li>
+                        <li class="nav-item"><a href="">Canales y servicios</a></li>
+                        <li class="nav-item"><a href="">Creditos</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <aside class="aside1">
@@ -102,6 +113,9 @@
         <p>
             Bancoop - Todos los derechos reservados
         </p>
+        <button class="btn btn-outline-primary">BOTON</button>
     </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
