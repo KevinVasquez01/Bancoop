@@ -111,8 +111,8 @@ article img{
     float: right;
     margin-top: -117px;
     margin-left: -20px;
-    width: 200px;
-    height: 125px;
+    width: 140px;
+    height: 100px;
     border-radius: 5%;
 }
 footer{
@@ -145,4 +145,30 @@ footer{
     border: 5px solid white;
     width: 40px;
 
+}
+@media screen and (max-width: 767px){
+    section article p{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        width: 100%;
+        margin: 5px;
+        margin-top: 22px;
+        margin-bottom: 8px;
+    }
+    section article{
+        background-color:white;
+        padding: 20px;
+        margin-bottom:20px;
+        border-radius: 10px;
+        box-shadow: -3px -3px 6px rgb(13, 13, 14);
+        height: 60%;
+    }
+    article img{
+        position: absolute;
+        margin-left: 26%;
+        margin-top: 8%;
+        width: 140px;
+        height: 100px;
+        border-radius: 5%;
+    }
 }
