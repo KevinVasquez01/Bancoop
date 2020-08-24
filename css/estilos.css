@@ -39,103 +39,18 @@ header nav ul li:hover{
 header nav ul li a:hover{
     color: white;
 }
-.aside1{
-    width: 35%;
-    background-color: #016a94;
-    float: left;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    height: auto;
-    box-shadow:3px 3px 3px rgb(5, 10, 87);
-    margin-bottom: 0px;
-    margin-top: 15px;
-    margin-left: 8px;
-}
-aside h3{
-    color: white;
-    font-family: Berlin Sans FB Demi, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    font-size: 150%;
-}
-.aside2{
-    width: 25%;
-    background-color: #016a94;
-    float: left;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    height: 30%;
-    box-shadow:3px 3px 3px rgb(5, 10, 87);
-    margin-bottom: 20px;
-    margin-top: 380px;
-    margin-left: -340px;
-    overflow: hidden;
-}
-.aside2 button{
-    padding: 5px;
-    display: block;
-    width: 100%;
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-section{
-    width:60%;
-    float: left;
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 39%;
-    height: 112%;
-}
-section article{
-    background-color:white;
-    padding: 20px;
-    margin-bottom:20px;
-    border-radius: 10px;
-    box-shadow: -3px -3px 6px rgb(13, 13, 14);
-}
-section article h4{
-    font-family: Berlin Sans FB Demi, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-}
-section article p{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    width: 70%;
-    margin: 5px;
-    margin-top: 22px;
-    margin-bottom: 8px;
-}
-article img{
-    float: right;
-    margin-top: -117px;
-    margin-left: -20px;
-    width: 140px;
-    height: 100px;
-    border-radius: 5%;
-    margin-right: 5px;
-}
 footer{
     clear: both;
     text-align: center;
     padding: 15px;
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(29, 27, 36);
     font-family: calibri;
     font-size: 18px;
     font-weight: bold;
 }
-.titulo:hover{
-    font-weight: normal;
-    box-shadow: none;
-}
-.titulo{
-    font-size: 23px;
+footer p{
     color: white;
-    padding: -20px;
-    margin-left: -60px;
-    margin-right: 0px;
-    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .banco:hover{
     box-shadow: none;
@@ -147,29 +62,18 @@ footer{
     width: 40px;
 
 }
+.aside1{
+    width: 50%;
+    border: 1px solid #0099cc;
+    margin: 5px;
+    border-radius: 5px;
+}
+#titulo{
+    color:#0099cc;
+    text-align: center;
+    padding-top: 2px;
+}
+
 @media screen and (max-width: 767px){
-    section article p{
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: justify;
-        width: 100%;
-        margin: 5px;
-        margin-top: 22px;
-        margin-bottom: 8px;
-    }
-    section article{
-        background-color:white;
-        padding: 20px;
-        margin-bottom:20px;
-        border-radius: 10px;
-        box-shadow: -3px -3px 6px rgb(13, 13, 14);
-        height: 80%;
-    }
-    article img{
-        position: absolute;
-        margin-left: 26%;
-        margin-top: 8%;
-        width: 50%;
-        height: auto;
-        border-radius: 5%;
-    }
+
 }
