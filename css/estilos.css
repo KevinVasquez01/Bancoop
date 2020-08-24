@@ -64,7 +64,7 @@ footer p{
 
 }
 .aside1{
-    width: 48%;
+    width: 40%;
     border: 1px solid #0099cc;
     margin: 5px;
     border-radius: 5px;
@@ -78,7 +78,7 @@ footer p{
 }
 .aside2{
     border: 1px solid #0099cc;
-    width: 45%;
+    width: 55%;
     margin: 5px;
     border-radius: 5px;
     float: left;
@@ -86,6 +86,8 @@ footer p{
     text-align: center;
 }
 
-@media screen and (max-width: 767px){
-
+@media screen and (max-width: 600px){
+    .titulo{
+        font-size: 95%;
+    }
 }
